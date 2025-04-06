@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "longcomprefProj", "longcomprefProj\longcomprefProj.csproj", "{BA41F0D9-8742-D36D-C5F7-8579FE056087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "longcomprefTests", "longcomprefTests\longcomprefTests.csproj", "{F5AC7D3E-FE01-7211-F58D-47AB5DC2F062}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA41F0D9-8742-D36D-C5F7-8579FE056087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA41F0D9-8742-D36D-C5F7-8579FE056087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA41F0D9-8742-D36D-C5F7-8579FE056087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA41F0D9-8742-D36D-C5F7-8579FE056087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5AC7D3E-FE01-7211-F58D-47AB5DC2F062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5AC7D3E-FE01-7211-F58D-47AB5DC2F062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5AC7D3E-FE01-7211-F58D-47AB5DC2F062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5AC7D3E-FE01-7211-F58D-47AB5DC2F062}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32DB7F8A-281C-4327-A598-067384A944EB}
+	EndGlobalSection
+EndGlobal
