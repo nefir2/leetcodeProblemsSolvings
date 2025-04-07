@@ -11,7 +11,7 @@ else
 fi
 
 function fetchNewName() {
-	for file in ls; do
+	for file in `ls`; do
 		if [ "$file" = "$1" ]; then
 			echo "current directory already contains $1.";
 			return 1;
@@ -45,6 +45,8 @@ function generateProjectDir() {
 	export tests="${1}Tests";
 	mkdir $1;
 	cd $1;
+	mkdir 'cs';
+	cd 'cs';
 	mkdir $proj;
 	mkdir $tests;
 	cd $proj;
@@ -83,6 +85,5 @@ elif [[ $# -gt 1 ]]; then
 	done;
 	exit 0;
 fi
-
 
 exit 0;
