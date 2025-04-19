@@ -384,7 +384,7 @@ FodyWeavers.xsd
 *.code-workspace
 
 # Local History for Visual Studio Code
-.history/
+**/.history/
 
 # Windows Installer files from build outputs
 *.cab
@@ -394,15 +394,11 @@ FodyWeavers.xsd
 *.msp
 
 # JetBrains Rider
-*.sln.iml
-findstr/findstrProj/obj/Debug/net9.0/findstrProj.AssemblyInfo.cs
-findstr/findstrProj/obj/Debug/net9.0/findstrProj.AssemblyInfo.cs
-findstr/findstrTests/obj/Debug/net9.0/findstrTests.AssemblyInfoInputs.cache
-findstr/findstrTests/obj/Debug/net9.0/findstrTests.AssemblyInfo.cs
-findstr/findstrTests/bin/Debug/net9.0/CoverletSourceRootsMapping_findstrTests
-findstr/findstrTests/bin/Debug/net9.0/.msCoverageSourceRootsMapping_findstrTests
-findstr/findstrProj/obj/Debug/net9.0/findstrProj.AssemblyInfoInputs.cache
-findstr/findstrProj/obj/Debug/net9.0/findstrProj.AssemblyInfo.cs
+**/*.sln.iml
+**/*.AssemblyInfo.cs
+**/*.AssemblyInfoInputs.cache
+**/CoverletSourceRootsMapping_*
+**/.msCoverageSourceRootsMapping_*
 
 # some VS things that unneedable to commit.
 **/*.json
