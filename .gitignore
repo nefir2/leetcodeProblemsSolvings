@@ -379,7 +379,8 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
-.vscode/*
+**/.vscode
+**/.vscode/*
 *.code-workspace
 
 # Local History for Visual Studio Code
@@ -402,3 +403,9 @@ findstr/findstrTests/bin/Debug/net9.0/CoverletSourceRootsMapping_findstrTests
 findstr/findstrTests/bin/Debug/net9.0/.msCoverageSourceRootsMapping_findstrTests
 findstr/findstrProj/obj/Debug/net9.0/findstrProj.AssemblyInfoInputs.cache
 findstr/findstrProj/obj/Debug/net9.0/findstrProj.AssemblyInfo.cs
+
+# some VS things that unneedable to commit.
+**/*.json
+**/*.sln
+**/*.vcxproj
+**/*.vcxproj.*
