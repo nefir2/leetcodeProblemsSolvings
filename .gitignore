@@ -409,3 +409,9 @@ findstr/findstrProj/obj/Debug/net9.0/findstrProj.AssemblyInfo.cs
 **/*.sln
 **/*.vcxproj
 **/*.vcxproj.*
+
+# ignore undone 
+revint
+parentheses
+rmnode
+inspos/cs
