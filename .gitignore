@@ -406,6 +406,9 @@ FodyWeavers.xsd
 **/*.vcxproj
 **/*.vcxproj.*
 
+# ignore visual studio project dirs
+**/vs_*/
+
 # ignore undone 
 revint
 parentheses
