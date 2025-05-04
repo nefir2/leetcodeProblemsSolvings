@@ -1,7 +1,7 @@
 #include "solution.h"
 #include <iostream>
 
-void swap(std::vector<int>& array, const int& left_id, const int& right_id) {
+inline void Solution::swap(std::vector<int>& array, const int& left_id, const int& right_id) {
 	const int right_value = array[right_id];
 	array[right_id] = array[left_id];
 	array[left_id] = right_value;
